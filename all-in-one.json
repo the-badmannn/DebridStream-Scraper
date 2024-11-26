@@ -10,7 +10,7 @@
   },
   {
     "name":"T-Movie",
-    "url":"https://torrentio.strem.fun/stream/movie/%imdbId.json",
+    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/movie/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"movie",
     "infoHashTargetKey":"infoHash",
