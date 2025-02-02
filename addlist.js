@@ -1,12 +1,5 @@
 const addonList = [
   {
-    title: "Old-Timers",
-    logo: "./images/grandfather.png",
-    description:
-      "PirateBay + YTS + KNABEN + CloudTorrent + Lime-Torrents + Torrents-CSV + Bit-Search",
-    link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/en-scrapers.json",
-  },
-  {
     title: "Ultra-Fast",
     logo: "./images/ff.png",
     description: "PirateBay + BitSearch + Torrentio + MediaFusion",
@@ -23,6 +16,13 @@ const addonList = [
     logo: "./images/burger.png",
     description: "A lot of scrapers (could be slow on under powered devices)",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/all-in-one.json",
+  },
+  {
+    title: "Old-Timers",
+    logo: "./images/grandfather.png",
+    description:
+      "PirateBay + YTS + KNABEN + CloudTorrent + Lime-Torrents + Torrents-CSV + Bit-Search",
+    link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/en-scrapers.json",
   },
   {
     title: "Just Torrentio",
