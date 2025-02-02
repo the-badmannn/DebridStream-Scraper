@@ -21,7 +21,7 @@ const addonList = [
     title: "Old-Timers",
     logo: "./images/grandfather.png",
     description:
-      "PirateBay + YTS + KNABEN + CloudTorrent + Lime-Torrents + Torrents-CSV + Bit-Search",
+      "PirateBay + YTS + CloudTorrent + Lime-Torrents + Torrents-CSV + Bit-Search",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/en-scrapers.json",
   },
   {
