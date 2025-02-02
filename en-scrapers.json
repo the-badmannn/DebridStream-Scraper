@@ -17,13 +17,6 @@
     "torrentNameTargetKey":"title"
   },
   {
-    "name":"KNABEN",
-    "url":"https://knaben.eu/search/?cat=All&q=%s&fast=0",
-    "type":"html",
-    "magnetTargetKey":"tbody a[href^='magnet']|href",
-    "itemType":"magnet"
-  },
-  {
     "name":"CloudTorrent",
     "url":"https://cloudtorrents.com/search?ordering=-uploaded&query=%s",
     "type":"html",
