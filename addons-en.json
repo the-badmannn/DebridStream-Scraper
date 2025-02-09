@@ -38,13 +38,5 @@
     "itemType":"info_hash",
     "jsonResultsKey":"streams",
     "torrentNameTargetKey":"behaviorHints.filename"
-  },
-    {
-    "name": "Pirate Bay",
-    "url": "https://apibay.org/q.php?cat=200&q=%s",
-    "type": "json",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "info_hash",
-    "torrentNameTargetKey": "name"
   }
 ]
