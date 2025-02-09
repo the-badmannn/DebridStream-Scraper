@@ -46,12 +46,5 @@
     "itemType": "info_hash",
     "infoHashTargetKey": "info_hash",
     "torrentNameTargetKey": "name"
-  },
-  {
-    "name": "Bit-Search",
-    "url": "https://bitsearch.to/search?q=%s",
-    "type": "html",
-    "magnetTargetKey": ".search-result a[href^='magnet']|href",
-    "itemType": "magnet"
   }
 ]
