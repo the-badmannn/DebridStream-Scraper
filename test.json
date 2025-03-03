@@ -1,12 +1,11 @@
 [
   {
-    "name": "rutor",
-    "url": "https://rutor.info/search/0/0/000/0/%s",
+    "name": "glodls",
+    "url": "https://glodls.to/search_results.php?search=%s&incldead=Search",
     "type": "html",
-    "infoHashTargetKey": "#index a[href^='magnet']|href",
-    "infoHashRegExp": "btih:([0-9a-fA-F]{40})",
-    "torrentNameTargetKey": "#index a[href^='/torrent/']|text",
-    "itemType": "info_hash"
+    "magnetTargetKey": "table.ttable_headinner tr a[href^='magnet']|href",
+    "torrentNameTargetKey": "table.ttable_headinner tr td:nth-child(2)>a[href^='/']|text",
+    "itemType": "magnet"
   }
 ]
 
