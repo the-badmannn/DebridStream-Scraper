@@ -5,7 +5,7 @@
     "type": "html",
     "magnetTargetKey": "a[title='Torrent magnet link']|href",
     "magnetRegExp": "[?&]url=([^&]+)",
-    "torrentNameTargetKey": "tr a.cellMainLink[href^='/']|text",
+    "torrentNameTargetKey": "a.cellMainLink[href^='/']|text",
     "itemType": "magnet"
   }
 ]
