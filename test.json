@@ -3,7 +3,7 @@
     "name": "KickAss",
     "url": "https://kick4ss.com/usearch/%s",
     "type": "html",
-    "magnetTargetKey": "tr a[href^='https://mylink.cloud/?url=magnet']|href",
+    "magnetTargetKey": "tr a[title='Torrent magnet link']|href",
     "magnetRegExp": "[?&]url=([^&]+)",
     "torrentNameTargetKey": "tr a.cellMainLink[href^='/']|text",
     "itemType": "magnet"
