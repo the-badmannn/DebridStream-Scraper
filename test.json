@@ -1,10 +1,10 @@
 [
- {
-    "name": "Lime-Torrents",
-    "url": "https://www.limetorrents.lol/search/all/%s",
+  {
+    "name": "torrentdownload",
+    "url": "https://www.torrentdownload.info/search?q=%s",
     "type": "html",
-    "infoHashTargetKey": ".tt-name a[href^='http://itorrents.org']|href",
-    "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
+    "infoHashTargetKey": ".tt-name a[href^='/']|href",
+    "infoHashRegExp": "\\/([^/]+)\\/",
     "torrentNameTargetKey": ".tt-name a[href^='/']|text",
     "itemType": "info_hash"
   }
