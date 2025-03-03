@@ -4,7 +4,7 @@
     "url": "https://www.torrentdownload.info/search?q=%s",
     "type": "html",
     "infoHashTargetKey": ".tt-name a[href^='/']|href",
-    "infoHashRegExp": "\\/([^/]+)\\/",
+    "infoHashRegExp":  "/([A-Z0-9]{40})/",
     "torrentNameTargetKey": ".tt-name a[href^='/']|text",
     "itemType": "info_hash"
   }
