@@ -3,10 +3,10 @@
     "name": "Kick-Ass",
     "url": "https://kick4ss.com/usearch/%s",
     "type": "html",
-    "magnetTargetKey": "a[title='Torrent magnet link']|href",
-    "magnetRegExp": "[?&]url=([^&]+)",
+    "infoHashTargetKey": "a[title='Torrent magnet link']|href",
+    "infoHashRegExp": "btih%3A([0-9A-F]+)",
     "torrentNameTargetKey": "a.cellMainLink[href^='/']|text",
-    "itemType": "magnet"
+    "itemType": "info_hash"
   }
 ]
 
