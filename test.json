@@ -1,12 +1,11 @@
 [
   {
-    "name": "Torrent Download",
-    "url": "https://www.torrentdownload.info/search?q=%s",
+    "name": "glodls",
+    "url": "https://glodls.to/search_results.php?search=%s&incldead=Search",
     "type": "html",
-    "infoHashTargetKey": "table.table2:last-of-type .tt-name a|href",
-    "infoHashRegExp":  "/([A-Z0-9]{40})/",
-    "torrentNameTargetKey": ".tt-name a|text",
-    "itemType": "info_hash"
+    "magnetTargetKey": ".ttable_col2 a[href^='http://itorrents.org']|href",
+    "torrentNameTargetKey": ".ttable_col2 a[href^='/']|text",
+    "itemType": "magnet"
   }
 ]
 
