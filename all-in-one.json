@@ -101,5 +101,14 @@
   "type":"html",
   "itemType":"magnet",
   "magnetTargetKey":"div#content a[href^='magnet']|href"
-}
+},
+{
+    "name": "TorrentDownload",
+    "url": "https://www.torrentdownload.info/search?q=%s",
+    "type": "html",
+    "infoHashTargetKey": "table.table2:last-of-type .tt-name a|href",
+    "infoHashRegExp":  "/([A-Z0-9]{40})/",
+    "torrentNameTargetKey": ".tt-name a|text",
+    "itemType": "info_hash"
+  }
 ]
