@@ -1,6 +1,6 @@
 [
   {
-    "name": "Kick-Ass",
+    "name": "KickAss",
     "url": "https://kick4ss.com/usearch/%s",
     "type": "html",
     "magnetTargetKey": "tr a[title='Torrent magnet link']|href",
