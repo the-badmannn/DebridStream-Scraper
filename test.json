@@ -1,9 +1,12 @@
 [
-  {
-    "name": "Bitlord",
-    "url": "https://bitlordsearch.com/search?q=%s",
+ {
+    "name": "Lime-Torrents",
+    "url": "https://www.limetorrents.lol/search/all/%s",
     "type": "html",
-    "magnetTargetKey": ".search-result a[href^='magnet']|href",
-    "itemType": "magnet"
+    "infoHashTargetKey": ".tt-name a[href^='http://itorrents.org']|href",
+    "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
+    "torrentNameTargetKey": ".tt-name a[href^='/']|text",
+    "itemType": "info_hash"
   }
 ]
+
