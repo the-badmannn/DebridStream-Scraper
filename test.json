@@ -3,9 +3,9 @@
     "name": "Torrent Download",
     "url": "https://www.torrentdownload.info/search?q=%s",
     "type": "html",
-    "infoHashTargetKey": ".tt-name a[href^='/']|href",
+    "infoHashTargetKey": ".tt-name a|href",
     "infoHashRegExp":  "/([A-Z0-9]{40})/",
-    "torrentNameTargetKey": ".tt-name a[href^='/']|text",
+    "torrentNameTargetKey": ".tt-name a|text",
     "itemType": "info_hash"
   }
 ]
