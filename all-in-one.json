@@ -119,5 +119,13 @@
     "infoHashRegExp": "btih%3A([0-9A-F]+)",
     "torrentNameTargetKey": "a.cellMainLink[href^='/']|text",
     "itemType": "info_hash"
+  }, {
+    "name": "rutor",
+    "url": "https://rutor.info/search/0/0/000/0/%s",
+    "type": "html",
+    "infoHashTargetKey": "#index a[href^='magnet']|href",
+    "infoHashRegExp": "btih:([0-9a-fA-F]{40})",
+    "torrentNameTargetKey": "#index a[href^='/torrent/']|text",
+    "itemType": "info_hash"
   }
 ]
