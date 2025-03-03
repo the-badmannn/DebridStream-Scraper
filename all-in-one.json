@@ -18,9 +18,9 @@
     "jsonResultsKey":"streams",
     "torrentNameTargetKey":"title"
   },
-  {
+      {
     "name":"M-Movie",
-    "url":"https://mediafusion.elfhosted.com/eJwBAAL__YsG6U4PZJDPKy5-feTb1-XHPvh_C50luM9_WcUrmk6T4BQnROt3w6u4k61uOHBgnq7dUQ-VsO1KIOGzrSmwS7jmGsTRdt68-TFaqaBvXFPeDjn64tvRDxg6XyW-SLN-a_uRSo2PdAk0KPi2yA_3WNO_EdbKEec0YuZ_hWc1Q7a2L4YCyOXfldaUDfLC1b9zNtu5z3GNZQVcNS28oG1JbWkaBWn4a-in8HO7s0NnFpNaaJEOKClOAtES7qw7s4rPecUsdNzAOM0GGZiawQC5SbxhrQLLS8RGmZcnNMYrrzSetF0tMDlch-YpEnl0DOU04vw1LABjBRj1EGXE6AFWcnwaznqmKjhj_bmZXyy5lrJJCbQlurTQV3mKYgFHwmPG2RoS0gpSd85C-Q9M8qE0MHsUlhrDZ7UamFKTLHbAoKVBqzTHrN4Z_m_Z63eqCh7kC-I8zsRPDfxX9ZF-fgxA0t-lGn1lAHmKbX4tuqJ6vZr4iv5wSr9JiAFccKivhE1fyDKTTtacLNiA2KPDJzavZl2XOERP0LVy7RsytfQtpgv1q7CAskwfi7obrbhXG7xSdDdwFguxInb2I933yyA9CKT_lHukBdkwAbL3U6YdvGpA3odTuhpWKdkrEqIVxWgiEybb6nj1sOUgdI2exLQ_6LRxpNfuTXFbzMwWmSwxFWxBACT7Tg==/stream/movie/%imdbId.json",
+    "url":"https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/movie/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"movie",
     "infoHashTargetKey":"infoHash",
@@ -30,7 +30,7 @@
   },
   {
     "name":"M-TV",
-    "url":"https://mediafusion.elfhosted.com/eJwBAAL__YsG6U4PZJDPKy5-feTb1-XHPvh_C50luM9_WcUrmk6T4BQnROt3w6u4k61uOHBgnq7dUQ-VsO1KIOGzrSmwS7jmGsTRdt68-TFaqaBvXFPeDjn64tvRDxg6XyW-SLN-a_uRSo2PdAk0KPi2yA_3WNO_EdbKEec0YuZ_hWc1Q7a2L4YCyOXfldaUDfLC1b9zNtu5z3GNZQVcNS28oG1JbWkaBWn4a-in8HO7s0NnFpNaaJEOKClOAtES7qw7s4rPecUsdNzAOM0GGZiawQC5SbxhrQLLS8RGmZcnNMYrrzSetF0tMDlch-YpEnl0DOU04vw1LABjBRj1EGXE6AFWcnwaznqmKjhj_bmZXyy5lrJJCbQlurTQV3mKYgFHwmPG2RoS0gpSd85C-Q9M8qE0MHsUlhrDZ7UamFKTLHbAoKVBqzTHrN4Z_m_Z63eqCh7kC-I8zsRPDfxX9ZF-fgxA0t-lGn1lAHmKbX4tuqJ6vZr4iv5wSr9JiAFccKivhE1fyDKTTtacLNiA2KPDJzavZl2XOERP0LVy7RsytfQtpgv1q7CAskwfi7obrbhXG7xSdDdwFguxInb2I933yyA9CKT_lHukBdkwAbL3U6YdvGpA3odTuhpWKdkrEqIVxWgiEybb6nj1sOUgdI2exLQ_6LRxpNfuTXFbzMwWmSwxFWxBACT7Tg==/stream/series/%imdbId.json",
+    "url":"https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/series/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"tv",
     "infoHashTargetKey":"infoHash",
