@@ -1,6 +1,6 @@
 [
   {
-    "name": "torrentdownload",
+    "name": "Torrent Download",
     "url": "https://www.torrentdownload.info/search?q=%s",
     "type": "html",
     "infoHashTargetKey": ".tt-name a[href^='/']|href",
