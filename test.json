@@ -2,10 +2,10 @@
   {
     "name":"Zilean-TV",
     "searchPattern": {
-     "movie": "%title&Year=%year",
-      "tv": "%title&Season=%season&Episode=%episode"
+     "movie": "ImdbId=%imdbId&Year=%year",
+      "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
     },
-    "url":"https://zilean.elfhosted.com/dmm/filtered?Query=%searchPattern",
+    "url":"https://zilean.elfhosted.com/dmm/filtered?%searchPattern",
      "type": "json",
     "itemType": "info_hash",
     "infoHashTargetKey": "info_hash",
