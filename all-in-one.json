@@ -81,51 +81,11 @@
     "jsonResultsKey": "torrents",
     "torrentNameTargetKey": "name"
   },
-  {
-    "name": "Bitlord",
-    "url": "https://bitlordsearch.com/search?q=%s",
-    "type": "html",
-    "magnetTargetKey": ".bls-row a[href^='magnet']|href",
-    "itemType": "magnet"
-  },
      {
     "name": "Bit-Search",
     "url": "https://bitsearch.to/search?q=%s",
     "type": "html",
     "magnetTargetKey": ".search-result a[href^='magnet']|href",
     "itemType": "magnet"
-  },
- {
-  "name":"Animetosho",
-  "url":"https://animetosho.org/search?q=%s",
-  "type":"html",
-  "itemType":"magnet",
-  "magnetTargetKey":"div#content a[href^='magnet']|href"
-},
-{
-    "name": "TorrentDownload",
-    "url": "https://www.torrentdownload.info/search?q=%s",
-    "type": "html",
-    "infoHashTargetKey": "table.table2:last-of-type .tt-name a|href",
-    "infoHashRegExp":  "/([A-Z0-9]{40})/",
-    "torrentNameTargetKey": ".tt-name a|text",
-    "itemType": "info_hash"
-  },
-  {
-    "name": "Kick-Ass",
-    "url": "https://kick4ss.com/usearch/%s",
-    "type": "html",
-    "infoHashTargetKey": "a[title='Torrent magnet link']|href",
-    "infoHashRegExp": "btih%3A([0-9A-F]+)",
-    "torrentNameTargetKey": "a.cellMainLink[href^='/']|text",
-    "itemType": "info_hash"
-  }, {
-    "name": "rutor",
-    "url": "https://rutor.info/search/0/0/000/0/%s",
-    "type": "html",
-    "infoHashTargetKey": "#index a[href^='magnet']|href",
-    "infoHashRegExp": "btih:([0-9a-fA-F]{40})",
-    "torrentNameTargetKey": "#index a[href^='/torrent/']|text",
-    "itemType": "info_hash"
   }
 ]
