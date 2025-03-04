@@ -9,7 +9,8 @@
      "type": "json",
     "itemType": "info_hash",
     "infoHashTargetKey": "info_hash",
-    "torrentNameTargetKey": "raw_title"
+    "torrentNameTargetKey": "raw_title",
+    "sizeAttr": "size"
   }
 ]
 
