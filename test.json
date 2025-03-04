@@ -1,11 +1,11 @@
 [
   {
-    "name": "glodls",
-    "url": "https://glodls.to/search_results.php?search=%s&incldead=Search",
-    "type": "html",
-    "magnetTargetKey": "table.ttable_headinner tr a[href^='magnet']|href",
-    "torrentNameTargetKey": "table.ttable_headinner tr td:nth-child(2)>a[href^='/']|text",
-    "itemType": "magnet"
+    "name":"Zilean-TV",
+    "url":"https://zilean.elfhosted.com/dmm/filtered?Query=%s",
+     "type": "json",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "raw_title"
   }
 ]
 
