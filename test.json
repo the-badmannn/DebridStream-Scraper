@@ -1,6 +1,6 @@
 [
   {
-    "name":"Zilean-TV",
+    "name":"Zilean",
     "searchPattern": {
      "movie": "ImdbId=%imdbId&Year=%year",
       "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
