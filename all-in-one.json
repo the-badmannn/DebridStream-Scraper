@@ -1,24 +1,24 @@
 [
   {
-    "name": "MagnifyTV",
-    "url": "https://magnify.pages.dev/scrapers.json",
-    "type": "json_imdb",
-    "imdbType": "tv",
-    "infoHashTargetKey": "infoHash",
-    "itemType": "info_hash",
-    "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "title"
+  "name": "MagnifyScraperTV",
+  "url": "https://magnify.pages.dev/scraper",
+  "type": "json_imdb",
+  "imdbType": "tv",
+  "infoHashTargetKey": "infoHash",
+  "itemType": "info_hash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title"
   },
   {
-    "name": "MagnifyMovie",
-    "url": "https://magnify.pages.dev/scrapers.json",
-    "type": "json_imdb",
-    "imdbType": "movie",
-    "infoHashTargetKey": "infoHash",
-    "itemType": "info_hash",
-    "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "title"
-  },
+  "name": "MagnifyScraperMovie",
+  "url": "https://magnify.pages.dev/scraper",
+  "type": "json_imdb",
+  "imdbType": "movie",
+  "infoHashTargetKey": "infoHash",
+  "itemType": "info_hash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title"
+  }
   {"name": "TTV",
     "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/series/%imdbId.json",
     "type": "json_imdb",
