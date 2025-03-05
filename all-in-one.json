@@ -1,7 +1,7 @@
 [
   {
   "name": "MagnifyScraperTV",
-  "url": "https://magnify.pages.dev/scraper",
+  "url": "https://magnify.pages.dev/scraper.json",
   "type": "json_imdb",
   "imdbType": "tv",
   "infoHashTargetKey": "infoHash",
@@ -11,7 +11,7 @@
   },
   {
   "name": "MagnifyScraperMovie",
-  "url": "https://magnify.pages.dev/scraper",
+  "url": "https://magnify.pages.dev/scraper.json",
   "type": "json_imdb",
   "imdbType": "movie",
   "infoHashTargetKey": "infoHash",
