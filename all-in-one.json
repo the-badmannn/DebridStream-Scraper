@@ -1,6 +1,6 @@
 [
   {
-    "name": "T-TV",
+    "name": "TTV",
     "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/series/%imdbId.json",
     "type": "json_imdb",
     "imdbType": "tv",
@@ -10,7 +10,7 @@
     "torrentNameTargetKey": "title"
   },
   {
-    "name": "T-Movie",
+    "name": "TMovie",
     "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/movie/%imdbId.json",
     "type": "json_imdb",
     "imdbType": "movie",
