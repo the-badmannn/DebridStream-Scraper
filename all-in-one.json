@@ -26,7 +26,7 @@
     "infoHashTargetKey":"infoHash",
     "itemType":"info_hash",
     "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"behaviorHints.filename"
+    "torrentNameTargetKey":"behaviorHints.filename",
   },
   {
     "name":"M-TV",
@@ -54,7 +54,8 @@
     "infoHashTargetKey":"hash",
     "itemType":"info_hash",
     "jsonResultsKey":"data.movies[0].torrents",
-    "torrentNameTargetKey":"title"
+    "torrentNameTargetKey":"title",
+    "sizeAttr": "size"
   },
   {
     "name":"CloudTorrent",
@@ -80,6 +81,7 @@
     "itemType": "info_hash",
     "jsonResultsKey": "torrents",
     "torrentNameTargetKey": "name"
+    "sizeAttr": "size_bytes"
   },
      {
     "name": "Bit-Search",
