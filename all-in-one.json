@@ -1,44 +1,45 @@
-[{
-    "name":"T-TV",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/series/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"tv",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"title"
+[
+  {
+    "name": "T-TV",
+    "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/series/%imdbId.json",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title"
   },
   {
-    "name":"T-Movie",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/movie/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"movie",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"title"
-  },
-      {
-    "name":"M-Movie",
-    "url":"https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/movie/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"movie",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"behaviorHints.filename",
+    "name": "T-Movie",
+    "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/movie/%imdbId.json",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title"
   },
   {
-    "name":"M-TV",
-    "url":"https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/series/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"tv",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"behaviorHints.filename"
+    "name": "M-Movie",
+    "url": "https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/movie/%imdbId.json",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename"
   },
-    {
+  {
+    "name": "M-TV",
+    "url": "https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/series/%imdbId.json",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename"
+  },
+  {
     "name": "Pirate Bay",
     "url": "https://apibay.org/q.php?cat=200&q=%s",
     "type": "json",
@@ -46,23 +47,23 @@
     "infoHashTargetKey": "info_hash",
     "torrentNameTargetKey": "name"
   },
-     {
-    "name":"YTS",
-    "url":"https://yts.mx/api/v2/list_movies.json?query_term=%imdbId",
-    "type":"json_imdb",
-    "imdbType":"movie",
-    "infoHashTargetKey":"hash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"data.movies[0].torrents",
-    "torrentNameTargetKey":"title",
+  {
+    "name": "YTS",
+    "url": "https://yts.mx/api/v2/list_movies.json?query_term=%imdbId",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "infoHashTargetKey": "hash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "data.movies[0].torrents",
+    "torrentNameTargetKey": "title",
     "sizeAttr": "size"
   },
   {
-    "name":"CloudTorrent",
-    "url":"https://cloudtorrents.com/search?ordering=-uploaded&query=%s",
-    "type":"html",
-    "magnetTargetKey":"tbody a[href^='magnet']|href",
-    "itemType":"magnet"
+    "name": "CloudTorrent",
+    "url": "https://cloudtorrents.com/search?ordering=-uploaded&query=%s",
+    "type": "html",
+    "magnetTargetKey": "tbody a[href^='magnet']|href",
+    "itemType": "magnet"
   },
   {
     "name": "Lime-Torrents",
@@ -80,10 +81,10 @@
     "infoHashTargetKey": "infohash",
     "itemType": "info_hash",
     "jsonResultsKey": "torrents",
-    "torrentNameTargetKey": "name"
+    "torrentNameTargetKey": "name",
     "sizeAttr": "size_bytes"
   },
-     {
+  {
     "name": "Bit-Search",
     "url": "https://bitsearch.to/search?q=%s",
     "type": "html",
