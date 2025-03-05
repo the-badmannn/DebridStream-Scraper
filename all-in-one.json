@@ -19,6 +19,46 @@
   "jsonResultsKey": "streams",
   "torrentNameTargetKey": "title"
   }
+  {
+  "name": "SynclerExpressHybridTV",
+  "url": "https://syncler-providers.herokuapp.com/syncler/express-hybrid.json",
+  "type": "json_imdb",
+  "imdbType": "tv",
+  "infoHashTargetKey": "infoHash",
+  "itemType": "info_hash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title"
+  },
+  {
+  "name": "SynclerExpressHybridMovie",
+  "url": "https://syncler-providers.herokuapp.com/syncler/express-hybrid.json",
+  "type": "json_imdb",
+  "imdbType": "movie",
+  "infoHashTargetKey": "infoHash",
+  "itemType": "info_hash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title"
+  }
+  {
+  "name": "WeydTV",
+  "url": "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/sample/scrapers.json",
+  "type": "json_imdb",
+  "imdbType": "tv",
+  "infoHashTargetKey": "infoHash",
+  "itemType": "info_hash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title"
+  },
+  {
+  "name": "WeydMovie",
+  "url": "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/sample/scrapers.json",
+  "type": "json_imdb",
+  "imdbType": "movie",
+  "infoHashTargetKey": "infoHash",
+  "itemType": "info_hash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title"
+  }
   {"name": "TTV",
     "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=threed,scr,cam/stream/series/%imdbId.json",
     "type": "json_imdb",
