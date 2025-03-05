@@ -33,7 +33,7 @@
       "movie": "movie/%imdbId",
       "tv": "series/%oldImdbSearchId"
     },
-    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/series/%imdbId.json",
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json",
     "type": "json_imdb",
     "imdbType": "tv",
     "infoHashTargetKey": "infoHash",
